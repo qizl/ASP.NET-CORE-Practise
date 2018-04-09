@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -22,7 +23,14 @@ namespace RazorPagesMovie
             services.AddDbContext<MovieContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MovieContext")));
             services.AddMvc();
 
-            services.AddTransient<IFruitService, AppleService>();
+            services.AddScoped<IFruitService, AppleService>();
+            //services.AddTransient<IFruitService, AppleService>();
+
+            services.AddTransient<IOperationTransient, Operation>();
+            services.AddScoped<IOperationScoped, Operation>();
+            services.AddSingleton<IOperationSingleton, Operation>();
+            services.AddSingleton<IOperationSingletonInstance>(new Operation(Guid.Empty));
+            services.AddTransient<OperationService, OperationService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
