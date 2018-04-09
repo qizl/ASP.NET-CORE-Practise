@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{CF526DDD-1CE6-4FE0-B73D-2D472EB16D4D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCorePractise", "NETCorePractise\NETCorePractise.csproj", "{CE53312A-4B77-484D-B92B-1149949E36D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CF526DDD-1CE6-4FE0-B73D-2D472EB16D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF526DDD-1CE6-4FE0-B73D-2D472EB16D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF526DDD-1CE6-4FE0-B73D-2D472EB16D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE53312A-4B77-484D-B92B-1149949E36D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE53312A-4B77-484D-B92B-1149949E36D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE53312A-4B77-484D-B92B-1149949E36D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE53312A-4B77-484D-B92B-1149949E36D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
