@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPagesMovie.Pages.DI.IndexModel
+
+<h1>Page Operations:</h1>
+<p>Transient:@Model.TransientOperation.OperationId</p>
+<p>ScopedOperation:@Model.ScopedOperation.OperationId</p>
+<p>SingletonOperation:@Model.SingletonOperation.OperationId</p>
+<p>SingletonInstanceOperation:@Model.SingletonInstanceOperation.OperationId</p>
+<h1>Service Operations:</h1>
+<p>Transient:@Model.OperationService.TransientOperation.OperationId</p>
+<p>ScopedOperation:@Model.OperationService.ScopedOperation.OperationId</p>
+<p>SingletonOperation:@Model.OperationService.SingletonOperation.OperationId</p>
+<p>SingletonInstanceOperation:@Model.OperationService.SingletonInstanceOperation.OperationId</p>
