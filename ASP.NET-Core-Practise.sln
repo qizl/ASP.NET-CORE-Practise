@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCorePractise", "NETCoreP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{D209B439-CA05-4FD1-B7CD-90AA5C40D8AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{4950827D-A2E6-43C7-B228-76EDA0106C1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{4950827D-A2E6-43C7-B228-76EDA0106C1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerWebAPI", "DockerWebAPI\DockerWebAPI.csproj", "{E3808D9C-EC18-4EE7-9A63-9A25B02DB001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerWebAPI2", "DockerWebAPI2\DockerWebAPI2.csproj", "{91C583E9-B4BC-436D-B444-46BC086990FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{4950827D-A2E6-43C7-B228-76EDA0106C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4950827D-A2E6-43C7-B228-76EDA0106C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4950827D-A2E6-43C7-B228-76EDA0106C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3808D9C-EC18-4EE7-9A63-9A25B02DB001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3808D9C-EC18-4EE7-9A63-9A25B02DB001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3808D9C-EC18-4EE7-9A63-9A25B02DB001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3808D9C-EC18-4EE7-9A63-9A25B02DB001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C583E9-B4BC-436D-B444-46BC086990FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C583E9-B4BC-436D-B444-46BC086990FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C583E9-B4BC-436D-B444-46BC086990FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C583E9-B4BC-436D-B444-46BC086990FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
