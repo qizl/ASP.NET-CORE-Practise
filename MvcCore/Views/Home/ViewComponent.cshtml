@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewData["Title"] = "ViewComponent";
+}
+
+<h2>ViewComponent</h2>
+
+@await Component.InvokeAsync("CitySummary", new { CityCount = 100, PeopleCount = 10000 })
+
+
